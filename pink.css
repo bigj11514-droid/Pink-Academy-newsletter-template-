@@ -167,6 +167,7 @@ h2{
         padding: 5px 40px;
         list-style: none;
         font-size: 70%;
+        margin: 0px 20px 0px 20px;
     }
     ul{
         display: flex;
@@ -175,4 +176,28 @@ h2{
     .intro-container{
         padding: 40px;
     }
+    h2{
+        font-size: 200%;
+    }
+    .card-cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        margin: 10px;
+    }
+    .update{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn{
+       margin-top: 30px;
+    }
+    .highlight{
+        font-size: 100%;
+    }
+    h3{
+        margin-bottom: 10px;
+    }
+    
 }
