@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 1px;
+}
+
+main{
+    background-color: rgb(247, 247, 247);
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 15px 15px 15px 15px;
+}
+
+body{
+    background-image: linear-gradient(180deg rgb(218, 209, 210) 5%, white 85%);
+    width: 100%;
+}
+.style{
+    padding: 15px;
+    display: flex;
+    font-style: oblique;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(155, 155, 155);
+}
+
+
+#sch-name{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 290%;
+    color: rgb(95, 3, 87);
+}
+
+.design{
+    color: rgb(255, 0, 251);
+    text-shadow: 2px 2px  rgb(131, 17, 93);
+}
+
+ul{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 1px;
+}
+
+li{
+    text-decoration: none;
+    list-style: circle;
+    color: rgb(95, 3, 87);
+    border: 1px solid rgb(228, 226, 226);
+    padding: 5px 15px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 20px rgb(224, 221, 224);
+    position:sticky
+}
+
+a:hover{
+    transform: translateX(10px);
+    transition: ease-in-out 1s;
+}
+/* i will create a style for the circle ,i want the circle to sclae up when i hover on the link  */
+a{
+    text-decoration: none;
+}
+
+.intro-container{
+    padding: 120px 20px;
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 10px;
+    background-image: linear-gradient(to right,  rgb(215, 77, 243) 30%, rgb(243, 243, 243)60%);
+
+}   
+
+h2{
+    font-size: 230%;
+    color: rgb(255, 0, 251);
+    text-shadow: 2px 2px  rgb(131, 17, 93);
+}
+
+.intro-text{
+    font-size: 80%;
+    color: rgb(95, 3, 87);
+    padding: 10px;
+}
+/* mobile first  */
+@media (max-width:640px){
+    main{
+        padding: 10px;
+        width: 100%;
+    }
+    .style{
+       font-size: 60%;
+       
+    }
+    nav{
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    #sch-name{
+        font-size: 80%;
+        padding: 40px 20px;
+        border-bottom: 1px solid rgb(155, 155, 155);
+    }
+    li{
+        padding: 5px 40px;
+        list-style: none;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .intro-container{
+        padding: 40px;
+    }
+}
