@@ -78,21 +78,71 @@ a{
     padding: 120px 20px;
     border: 1px solid rgb(211, 208, 208);
     border-radius: 10px;
-    background-image: linear-gradient(to right,  rgb(215, 77, 243) 30%, rgb(243, 243, 243)60%);
-
+    background-image: linear-gradient(to right,  rgb(237, 192, 247) 30%, rgb(240, 236, 241)60%);
+    box-shadow: 2px 2px 20px rgb(224, 221, 224);
+    border-bottom: transparent;
 }   
 
 h2{
-    font-size: 230%;
+    font-size: 280%;
     color: rgb(255, 0, 251);
     text-shadow: 2px 2px  rgb(131, 17, 93);
+    text-overflow: clip;
 }
 
 .intro-text{
     font-size: 80%;
-    color: rgb(95, 3, 87);
+    color: rgb(29, 29, 29);
     padding: 10px;
+    letter-spacing: 1px;
+    line-height: 130%;
+    
+   
 }
+
+.card-cont{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 0px 0px;
+    color: rgb(29, 29, 29);
+}
+
+.highlight{
+    font-size: 110%;
+    letter-spacing: 1px;
+    color: rgb(201, 28, 192);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+.card{
+    padding: 20px 80px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.update{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.btn{
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(201, 28, 192);
+    background-color: rgb(216, 216, 216);
+    box-shadow: 2px 2px 20px rgb(189, 186, 189);
+    font-size: 15px;
+}
+
+
+
+
+
+
+
 /* mobile first  */
 @media (max-width:640px){
     main{
@@ -116,6 +166,7 @@ h2{
     li{
         padding: 5px 40px;
         list-style: none;
+        font-size: 70%;
     }
     ul{
         display: flex;
