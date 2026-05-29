@@ -91,7 +91,7 @@ h2{
 }
 
 .intro-text{
-    font-size: 80%;
+    font-size: 100%;
     color: rgb(29, 29, 29);
     padding: 10px;
     letter-spacing: 1px;
@@ -113,6 +113,7 @@ h2{
     color: rgb(201, 28, 192);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
+    margin-bottom: 5px;
 }
 
 .card{
@@ -137,11 +138,28 @@ h2{
     font-size: 15px;
 }
 
+.update{
+    border: 1px solid rgb(211, 208, 208);
+    margin: 20px 5px;
+    border-radius: 20px;
+    border-bottom: transparent;
+}
 
+.update-one{
+    padding: 20px;
+}
 
+.brief{
+    display: flex;
+    justify-content: space-between;
+}
 
-
-
+.brief-card{
+    padding: 20px 30px;
+    margin: 40px 20px;
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 20px;
+}
 
 /* mobile first  */
 @media (max-width:640px){
@@ -174,7 +192,10 @@ h2{
         justify-content: space-between;
     }
     .intro-container{
-        padding: 40px;
+        padding: 40px 20px;
+    }
+    .intro-text{
+        padding: 10px 5px;
     }
     h2{
         font-size: 200%;
