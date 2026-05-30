@@ -118,6 +118,7 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     margin-bottom: 5px;
+    white-space: nowrap;
 }
 
 .card{
@@ -133,14 +134,15 @@ h2{
 }
 
 .btn{
-    padding: 5px 80px;
+    padding: 0px;
     white-space: nowrap;
     border-radius: 20px;
-    border: 1px solid rgb(255, 255, 255);
-    color: rgb(201, 28, 192);
-    background-color: rgb(216, 216, 216);
+    border: 1px solid rgb(151, 44, 194);
+    color: rgb(235, 18, 255);
+    background-color: rgb(234, 199, 236);
     box-shadow: 2px 2px 20px rgb(189, 186, 189);
     font-size: 15px;
+    text-shadow: 2px 2px  rgb(218, 213, 216);
 }
 
 .btn:hover{
@@ -148,15 +150,29 @@ h2{
     transform: scale(0.9);
 }
 
+#home-container{
+    border: transparent;
+    border-radius: 20px;
+    margin: 20px 0px;
+    box-shadow: 2px 2px 20px rgb(224, 221, 224);
+    border: 1px solid rgb(224, 221, 224);
+    padding: 10px;
+}
+
 .update{
     border: 1px solid rgb(211, 208, 208);
     margin: 20px 5px 0px;
     border-radius: 20px;
-    border-bottom: transparent;
+    border-top: transparent;
+    border-right: transparent;
 }
 
 .update-one{
     padding: 20px;
+}
+
+.update-cont-one{
+    width: 90%;
 }
 
 .brief{
@@ -165,8 +181,8 @@ h2{
 }
 
 .brief-card{
-    padding: 20px 30px;
-    margin: 40px 20px;
+    padding: 15px 30px;
+    margin: 20px 10px;
     border: 1px solid rgb(211, 208, 208);
     border-radius: 20px;
 }
@@ -223,6 +239,7 @@ h2{
     }
     .btn{
        margin-top: 30px;
+       padding: 10px;
        white-space: nowrap;
     }
     .highlight{
@@ -241,3 +258,4 @@ h2{
     }
     
 }
+
